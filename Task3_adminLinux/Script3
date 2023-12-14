@@ -1,0 +1,22 @@
+#!/bin/bash
+cd ~ 
+
+if  [ -f  ~/.bashrc ] ; then
+
+	if grep -q "HELLO=$HOSTNAME" ~/.bashrc ; then 
+	echo "Already Exists"
+	else 
+	echo  export HELLO=$HOSTNAME >> ~/.bashrc
+	fi
+	if grep -q "LOCAL=$(whoami)"  ~/.bashrc ; then
+	echo "Already Exists"
+	else 
+	echo  LOCAL=$(whoami) >> ~/.bashrc
+	fi  
+	
+	echo "Done" 
+else
+	echo "Not valid"
+fi
+gnome-terminal
+
