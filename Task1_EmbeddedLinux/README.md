@@ -65,7 +65,7 @@ file Calculator
 
 
 
-![Screenshot from 2024-01-20 07-12-48](/home/alaa/Pictures/Screenshots/Screenshot from 2024-01-20 07-12-48.png)
+![Screenshot from 2024-01-20 07-12-48](https://github.com/alaaelgammall/Embedded_Linux_repo/assets/100001810/b3e1872c-4dff-432c-aa32-797d86e99ae1)
 
 ## 2- Dynamic Library
 
@@ -126,4 +126,4 @@ gcc main.c -o CalculatorDynamic -L ./Lib_Src -loperation -I ./includes
 objdump -T liboperation.so  
 ```
 
-![](/home/alaa/Pictures/Screenshots/Screenshot from 2024-01-20 13-59-09.png)
+![Screenshot from 2024-01-20 13-59-09](https://github.com/alaaelgammall/Embedded_Linux_repo/assets/100001810/32f8c781-2df8-43c6-8fe9-c8f04543d45f)
