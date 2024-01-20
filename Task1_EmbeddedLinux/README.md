@@ -84,7 +84,8 @@ file Calculator
 >
 > PIC : Position Independent Code flag is a compiler options that generate code suitable for use in shared libraries ,PIC is a feature that allows a compiled library to be loaded into memory at any address. This is essential for shared libraries because the exact memory location where a library is loaded can vary between different programs and is determined at run time. 
 > 	
-> 2- create the dynamic library 
+
+2- create the dynamic library 
 
 ```
 gcc -shared -o liboperation.so *.o
